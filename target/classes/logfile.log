@@ -1,0 +1,1125 @@
+[12:24:05]  [WARN] testclasses.TestBase  - Test started.
+[12:24:11]  [INFO] testclasses.TestBase  - Checking response http status code..
+[12:24:13]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[12:24:19]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[12:24:19]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[12:24:19]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[12:24:23]  [INFO] testclasses.TestBase  - Trying log in..
+[12:24:23]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[12:24:23]  [WARN] testclasses.TestBase  - Test finished.
+[18:02:05]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@408b87aa
+[18:02:07]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@52169758
+[18:02:08]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@2676dc05
+[18:02:08]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@77f905e3
+[18:02:08]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@235d659c
+[18:02:08]  [WARN] testclasses.TestBase  - Test started.
+[18:02:14]  [INFO] testclasses.TestBase  - Checking response http status code..
+[18:02:15]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[18:02:19]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[18:02:19]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[18:02:19]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[18:02:26]  [INFO] testclasses.TestBase  - Trying log in..
+[18:02:26]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[18:02:26]  [WARN] testclasses.TestBase  - Test finished.
+[18:02:31]  [WARN] testclasses.TestBase  - Test started.
+[18:02:36]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:02:36]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:02:40]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:02:41]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:02:42]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:02:42]  [INFO] testclasses.TestBase  - Clicking search..
+[18:02:45]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:02:49]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:02:49]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:02:52]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:02:52]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:02:52]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:02:52]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:02:52]  [INFO] testclasses.TestBase  - 1.298,99 TL
+[18:02:52]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:02:54]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:03:04]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:03:14]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:03:14]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:03:24]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:03:34]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:03:42]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@787f32b7
+[18:03:43]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@17c2d509
+[18:03:44]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@6e3eb0cd
+[18:03:44]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@235d659c
+[18:03:44]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@7650ded6
+[18:03:44]  [WARN] testclasses.TestBase  - Test started.
+[18:03:50]  [INFO] testclasses.TestBase  - Checking response http status code..
+[18:03:51]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[18:03:55]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[18:03:55]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[18:03:55]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[18:04:01]  [INFO] testclasses.TestBase  - Trying log in..
+[18:04:01]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[18:04:01]  [WARN] testclasses.TestBase  - Test finished.
+[18:04:05]  [WARN] testclasses.TestBase  - Test started.
+[18:04:10]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:04:10]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:04:15]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:04:16]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:04:16]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:04:16]  [INFO] testclasses.TestBase  - Clicking search..
+[18:04:19]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:04:23]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:04:23]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:04:24]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:04:26]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:04:26]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:04:26]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:04:26]  [INFO] testclasses.TestBase  - 1.309,99 TL
+[18:04:26]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:04:27]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:04:38]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:04:48]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:04:48]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:04:58]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:05:08]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:05:18]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:05:19]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:05:29]  [WARN] testclasses.TestBase  - Test finished.
+[18:07:10]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@76c52298
+[18:07:10]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@1a0b5323
+[18:07:11]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@659feb22
+[18:07:12]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@2da16263
+[18:07:12]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@31b7d869
+[18:07:12]  [WARN] testclasses.TestBase  - Test started.
+[18:07:18]  [INFO] testclasses.TestBase  - Checking response http status code..
+[18:07:19]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[18:07:23]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[18:07:24]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[18:07:24]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[18:07:30]  [INFO] testclasses.TestBase  - Trying log in..
+[18:07:30]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[18:07:30]  [WARN] testclasses.TestBase  - Test finished.
+[18:07:34]  [WARN] testclasses.TestBase  - Test started.
+[18:07:39]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:07:39]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:07:44]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:07:45]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:07:46]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:07:46]  [INFO] testclasses.TestBase  - Clicking search..
+[18:07:49]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:07:53]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:07:53]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:07:56]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:07:56]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:07:56]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:07:56]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:07:56]  [INFO] testclasses.TestBase  - 79,90 TL
+[18:07:56]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:07:58]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:08:08]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:08:18]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:08:18]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:08:28]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:08:38]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:08:48]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:08:48]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:08:48]  [WARN] testclasses.TestBase  - Test finished.
+[18:13:56]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@314c8b4a
+[18:13:57]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@3062f9f4
+[18:13:58]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@235d659c
+[18:13:58]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@31db34da
+[18:13:59]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@748f93bb
+[18:14:00]  [WARN] testclasses.TestBase  - Test started.
+[18:14:05]  [INFO] testclasses.TestBase  - Checking response http status code..
+[18:14:08]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[18:14:13]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[18:14:14]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[18:14:14]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[18:14:20]  [INFO] testclasses.TestBase  - Trying log in..
+[18:14:20]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[18:14:20]  [WARN] testclasses.TestBase  - Test finished.
+[18:14:24]  [WARN] testclasses.TestBase  - Test started.
+[18:14:29]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:14:29]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:14:33]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:14:34]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:14:34]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:14:34]  [INFO] testclasses.TestBase  - Clicking search..
+[18:14:38]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:14:41]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:14:41]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:14:44]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:14:44]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:14:44]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:14:44]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:14:44]  [INFO] testclasses.TestBase  - 169,90 TL
+[18:14:44]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:14:46]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:14:46]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:14:56]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:14:56]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:15:06]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:15:16]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:15:27]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:15:28]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:15:28]  [WARN] testclasses.TestBase  - Test finished.
+[18:15:43]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@787f32b7
+[18:15:44]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@17c2d509
+[18:15:48]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@6e3eb0cd
+[18:15:49]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@235d659c
+[18:15:50]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@7650ded6
+[18:15:51]  [WARN] testclasses.TestBase  - Test started.
+[18:15:57]  [INFO] testclasses.TestBase  - Checking response http status code..
+[18:15:58]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[18:16:02]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[18:16:02]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[18:16:02]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[18:16:16]  [INFO] testclasses.TestBase  - Trying log in..
+[18:16:16]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[18:16:17]  [WARN] testclasses.TestBase  - Test finished.
+[18:16:21]  [WARN] testclasses.TestBase  - Test started.
+[18:16:26]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:16:26]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:16:31]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:16:32]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:16:32]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:16:32]  [INFO] testclasses.TestBase  - Clicking search..
+[18:16:36]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:16:43]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:16:43]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:16:44]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:16:45]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:16:45]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:16:45]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:16:45]  [INFO] testclasses.TestBase  - 1.194,99 TL
+[18:16:46]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:16:48]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:16:48]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:16:48]  [INFO] testclasses.TestBase  - productPriceOnShoppingCartPage:
+[18:16:48]  [INFO] testclasses.TestBase  - 1.194,99 TL
+[18:16:48]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:16:48]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:16:49]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:16:59]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:17:00]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:17:01]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:17:11]  [WARN] testclasses.TestBase  - Test finished.
+[18:18:18]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@4393593c
+[18:18:19]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@41fe8e5f
+[18:18:22]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@235d659c
+[18:18:23]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@31db34da
+[18:18:25]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@748f93bb
+[18:18:26]  [WARN] testclasses.TestBase  - Test started.
+[18:18:31]  [INFO] testclasses.TestBase  - Checking response http status code..
+[18:18:35]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[18:18:40]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[18:18:40]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[18:18:40]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[18:18:50]  [INFO] testclasses.TestBase  - Trying log in..
+[18:18:50]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[18:18:50]  [WARN] testclasses.TestBase  - Test finished.
+[18:18:54]  [WARN] testclasses.TestBase  - Test started.
+[18:19:00]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:19:00]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:19:03]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:19:04]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:19:04]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:19:04]  [INFO] testclasses.TestBase  - Clicking search..
+[18:19:07]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:19:10]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:19:10]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:19:13]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:19:13]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:19:13]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:19:13]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:19:13]  [INFO] testclasses.TestBase  - 1.083,71 TL
+[18:19:14]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:19:15]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:19:16]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:19:16]  [INFO] testclasses.TestBase  - productPriceOnShoppingCartPage:
+[18:19:16]  [INFO] testclasses.TestBase  - 1.083,71 TL
+[18:19:16]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:19:16]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:19:17]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:19:17]  [INFO] testclasses.TestBase  - Toplam 2 ürün
+[18:19:17]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:19:17]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:19:18]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:19:18]  [WARN] testclasses.TestBase  - Test finished.
+[18:21:36]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@3b05a99b
+[18:21:37]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@49ec6a9f
+[18:21:38]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@e38f0b7
+[18:21:38]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@345cbf40
+[18:21:38]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@5e8507f1
+[18:21:39]  [WARN] testclasses.TestBase  - Test started.
+[18:21:44]  [INFO] testclasses.TestBase  - Checking response http status code..
+[18:21:46]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[18:21:51]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[18:21:51]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[18:21:51]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[18:21:56]  [INFO] testclasses.TestBase  - Trying log in..
+[18:21:56]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[18:21:56]  [WARN] testclasses.TestBase  - Test finished.
+[18:22:00]  [WARN] testclasses.TestBase  - Test started.
+[18:22:06]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:22:06]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:22:10]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:22:11]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:22:12]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:22:12]  [INFO] testclasses.TestBase  - Clicking search..
+[18:22:15]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:22:19]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:22:19]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:22:21]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:22:21]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:22:21]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:22:21]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:22:21]  [INFO] testclasses.TestBase  - 2.778,99 TL
+[18:22:22]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:22:24]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:22:24]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:22:24]  [INFO] testclasses.TestBase  - productPriceOnShoppingCartPage:
+[18:22:24]  [INFO] testclasses.TestBase  - 2.778,99 TL
+[18:22:25]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:22:25]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:22:25]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:22:25]  [INFO] testclasses.TestBase  - Toplam 2 ürün
+[18:22:25]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:22:26]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:22:27]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:22:27]  [WARN] testclasses.TestBase  - Test finished.
+[18:26:19]  [WARN] testclasses.TestBase  - Test started.
+[18:26:25]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:26:25]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:26:29]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:26:30]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:26:30]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:26:30]  [INFO] testclasses.TestBase  - Clicking search..
+[18:26:33]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:26:39]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:26:39]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:26:50]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:27:00]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:27:02]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:27:12]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:27:22]  [WARN] testclasses.TestBase  - Test started.
+[18:27:28]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:27:28]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:27:32]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:27:33]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:27:34]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:27:34]  [INFO] testclasses.TestBase  - Clicking search..
+[18:27:37]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:27:40]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:27:40]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:27:43]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:27:43]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:27:43]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:27:43]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:27:43]  [INFO] testclasses.TestBase  - 1.449,96 TL
+[18:27:44]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:27:46]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:27:46]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:27:46]  [INFO] testclasses.TestBase  - productPriceOnShoppingCartPage:
+[18:27:46]  [INFO] testclasses.TestBase  - 1.449,96 TL
+[18:27:46]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:27:46]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:27:46]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:27:56]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:27:57]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:27:57]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:27:57]  [WARN] testclasses.TestBase  - Test finished.
+[18:28:07]  [WARN] testclasses.TestBase  - Test started.
+[18:28:13]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:28:13]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:28:18]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:28:19]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:28:19]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:28:19]  [INFO] testclasses.TestBase  - Clicking search..
+[18:28:23]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:28:26]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:28:27]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:28:28]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:28:30]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:28:30]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:28:30]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:28:30]  [INFO] testclasses.TestBase  - 680,03 TL
+[18:28:31]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:28:32]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:28:33]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:28:33]  [INFO] testclasses.TestBase  - productPriceOnShoppingCartPage:
+[18:28:33]  [INFO] testclasses.TestBase  - 680,03 TL
+[18:28:33]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:28:33]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:28:33]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:28:43]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:28:44]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:28:45]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:28:45]  [WARN] testclasses.TestBase  - Test finished.
+[18:29:11]  [WARN] testclasses.TestBase  - Test started.
+[18:29:17]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[18:29:17]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[18:29:21]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[18:29:22]  [INFO] testclasses.TestBase  - Clicking search bar..
+[18:29:22]  [INFO] testclasses.TestBase  - Typing into search bar..
+[18:29:23]  [INFO] testclasses.TestBase  - Clicking search..
+[18:29:28]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[18:29:34]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[18:29:34]  [INFO] testclasses.TestBase  - Clicking on a product..
+[18:29:38]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[18:29:38]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[18:29:38]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[18:29:38]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[18:29:38]  [INFO] testclasses.TestBase  - 2.799,00 TL
+[18:29:39]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[18:29:41]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[18:29:41]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..
+[18:29:41]  [INFO] testclasses.TestBase  - productPriceOnShoppingCartPage:
+[18:29:41]  [INFO] testclasses.TestBase  - 2.799,00 TL
+[18:29:41]  [INFO] testclasses.TestBase  - Comparing price of product that is in product details page with the one in shopping cart..
+[18:29:41]  [INFO] testclasses.TestBase  - Increasing the product quantity..
+[18:29:42]  [INFO] testclasses.TestBase  - Getting the quantity of product that's on the shopping cart:
+[18:29:52]  [INFO] testclasses.TestBase  - Removing the item from the cart..
+[18:29:52]  [INFO] testclasses.TestBase  - Navigating to shopping cart..
+[18:29:53]  [INFO] testclasses.TestBase  - Verifying whether the shopping is empty or not..
+[18:29:53]  [WARN] testclasses.TestBase  - Test finished.
+[00:53:11]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.internal.RestAssuredResponseImpl@1ad8df52
+[00:53:12]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.xml.XmlPath@10dc7d6
+[00:53:16]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@3b1dc579
+[00:53:17]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@31142d58
+[00:53:19]  [INFO] testclasses.TestAPIRestAssured  - io.restassured.path.json.JsonPath@5ebffb44
+[00:53:20]  [WARN] testclasses.TestBase  - Test started.
+[00:53:26]  [INFO] testclasses.TestBase  - Checking response http status code..
+[00:53:27]  [INFO] testclasses.TestBase  - Navigating to n11.com homepage..
+[00:53:32]  [INFO] testclasses.TestBase  - n11.com homepage title: 
+[00:53:32]  [INFO] testclasses.TestBase  - n11.com - Alışverişin Uğurlu Adresi
+[00:53:32]  [INFO] testclasses.TestBase  - Clicking KVKK pop-up..
+[00:53:37]  [INFO] testclasses.TestBase  - Trying log in..
+[00:53:37]  [ERROR] testclasses.TestBase  - Login failed:
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
+	at testclasses.TestN11HomepageAndLogin$N11Login.loginN11(TestN11HomepageAndLogin.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+[00:53:37]  [WARN] testclasses.TestBase  - Test finished.
+[00:53:37]  [WARN] testclasses.TestBase  - Test started.
+[00:53:42]  [INFO] testclasses.TestBase  - n11.com: Initiating product search..
+[00:53:42]  [INFO] testclasses.TestBase  - Navigating to the homepage..
+[00:53:46]  [INFO] testclasses.TestBase  - Clicking KVKK message..
+[00:53:47]  [INFO] testclasses.TestBase  - Clicking search bar..
+[00:54:04]  [INFO] testclasses.TestBase  - Typing into search bar..
+[00:54:04]  [INFO] testclasses.TestBase  - Clicking search..
+[00:54:08]  [INFO] testclasses.TestBase  - Clicking the second page of search results.. 
+[00:54:14]  [INFO] testclasses.TestBase  - Verifying the second page of search results.. 
+[00:54:14]  [INFO] testclasses.TestBase  - Clicking on a product..
+[00:54:17]  [INFO] testclasses.TestBase  - Adding product to the cart..
+[00:54:17]  [INFO] testclasses.TestBase  - Writing product info to the text file..
+[00:54:17]  [INFO] testclasses.TestBase  - Successfully wrote to the file.
+[00:54:17]  [INFO] testclasses.TestBase  - productPriceOnProductDetailsPage:
+[00:54:17]  [INFO] testclasses.TestBase  - 169,90 TL
+[00:54:18]  [INFO] testclasses.TestBase  - Navigating to the shopping cart..
+[00:54:20]  [INFO] testclasses.TestBase  - Confirming misafir musteri aydinlatma metni..
+[00:54:30]  [INFO] testclasses.TestBase  - Getting tthe price of product that is on the shopping cart..

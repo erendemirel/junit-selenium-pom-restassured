@@ -77,7 +77,7 @@ public class TestN11SearchAndShoppingCart extends TestBase {
 
         @Test
         @Order(5)
-        public void addProductToTheCart() {
+        public void addProductToTheCart() throws InterruptedException {
             WriteToFile writeToFile = new WriteToFile();
             logger.info("Adding product to the cart..");
             n11ProductPO.clickAddToTheCart();
@@ -86,6 +86,7 @@ public class TestN11SearchAndShoppingCart extends TestBase {
             productPriceOnProductDetailsPage = n11ProductPO.retreiveProductPrice();
             logger.info("productPriceOnProductDetailsPage:");
             logger.info(productPriceOnProductDetailsPage);
+            Thread.sleep(1000);
         }
 
         @Test

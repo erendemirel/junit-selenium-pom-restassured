@@ -30,7 +30,7 @@ public class ConfigFileReader {
     }
 
     public String getBrowser(){
-        String browser = properties.getProperty("browser");
+        String browser = properties.getProperty("browser").toLowerCase();
         if(browser!= null) return browser;
         else throw new RuntimeException("Can not read browser from the cofniguration file");
     }
